@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DatabaseWrapperLibrary</string>
+    <string name="delete">Delete</string>
+
+</resources>

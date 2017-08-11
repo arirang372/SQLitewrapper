@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SQLiteWrapper</string>
+    <string name="lb_firstname">First Name</string>
+    <string name="lb_lastname">Last Name</string>
+    <string name="lb_email">Email</string>
+    <string name="lb_password">Password</string>
+    <string name="lb_save">Save</string>
+    <string name="lb_no_users">No user(s) available</string>
+</resources>
