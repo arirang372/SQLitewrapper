@@ -18,7 +18,7 @@ public class ProviderHelper implements IProviderAccessHelper
     {
         switch (className)
         {
-            case "User":
+            case "User"://Name of the Object 'User'
                 content_uri = Uri.parse( ProviderMetadata.URL_USER);
                 break;
         }

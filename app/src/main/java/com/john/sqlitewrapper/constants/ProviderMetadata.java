@@ -18,6 +18,11 @@ public class ProviderMetadata {
 
     public static final Uri CONTENT_URI_USER = Uri.parse(URL_USER);
 
+    /**
+     *   This is the sql script to create the table User
+     *
+     */
+
     public static final String CREATE_USER_TABLE_STATEMENT =   " CREATE TABLE " + TABLE_USER +
             " (id            INTEGER    PRIMARY KEY AUTOINCREMENT, " +
             " firstName      TEXT       NOT NULL, " +

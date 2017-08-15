@@ -14,7 +14,16 @@ public class User extends BaseModel implements Serializable
 {
     public transient Uri CONTENT_URI = ProviderMetadata.CONTENT_URI_USER;
 
+    /**
+     *   make sure to name this field ALL_Columns and inside this array, include all of the fields that you need for this object...
+     *
+     */
     public String [] ALL_Columns = {"id", "firstName", "lastName", "email", "password"};
+
+    /**
+     *   Each field id, firstName,... needs to be 'public' field so that the wrapper should be able to see it...
+     *   If you don't want one of these fields to be visible by the wrapper, make it private.
+     */
 
     public int id;
     public String firstName;
